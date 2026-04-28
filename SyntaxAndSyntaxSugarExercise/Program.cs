@@ -31,7 +31,7 @@
 
              Console.WriteLine((readResult) ? "\nThat's a number!" : "\nCome on that's not what I asked for.");
 
-             string response = (answer < 9)
+             var response = (answer < 9)
                  ? answer + " is less than nine"
                  : answer + " is greater than or equal to nine";
 
